@@ -216,6 +216,7 @@ import java.util.List;
 
 import java.util.Locale;
 
+
 public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_CODE_SPEECH_INPUT = 1000;
     private EditText temp;
