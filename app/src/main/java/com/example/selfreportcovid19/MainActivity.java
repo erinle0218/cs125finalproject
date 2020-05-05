@@ -233,6 +233,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         temp = (EditText) findViewById(R.id.tempInput);
         speak();
+
         temp.setText(word,TextView.BufferType.EDITABLE);
         check = (TextView) findViewById(R.id.check);
         hospital = (Button) findViewById(R.id.mapButton);
