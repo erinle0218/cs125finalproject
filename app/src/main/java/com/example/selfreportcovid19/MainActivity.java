@@ -213,6 +213,7 @@ import com.example.selfreportcovid19.R;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
