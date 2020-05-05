@@ -227,6 +227,7 @@ public class MainActivity extends AppCompatActivity {
     TextView myText;
     ImageButton myVoice;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
