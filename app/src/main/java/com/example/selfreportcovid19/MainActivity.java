@@ -363,8 +363,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
-
     public void startMapActivity() {
         Intent i = new Intent(this,  MapsActivity.class);
         startActivity(i);
