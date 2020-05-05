@@ -318,7 +318,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
-        
+
         if (Float.compare(temperature, 95f) <= 0 && Float.compare(temperature, 80f) >= 0) {
             result = "Hypothermia";
             no.setOnClickListener(new OnClickListener() {
