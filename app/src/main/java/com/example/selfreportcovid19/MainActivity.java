@@ -197,7 +197,6 @@ package com.example.selfreportcovid19;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
