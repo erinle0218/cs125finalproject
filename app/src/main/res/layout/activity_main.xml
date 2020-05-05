@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/micInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press mic button to input voice..."
+        android:textColor="#000"
+        android:textSize="23sp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <ImageButton
+        android:id="@+id/micbutton"
+        android:layout_width="61dp"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/micbutton" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="95dp" />
+
+    <TextView
+        android:id="@+id/tempInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Current Body Temperature"
+        android:textColor="#E8332828"
+        tools:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/tempInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="Enter in Franheit"
+        android:inputType="numberDecimal"
+        android:textColor="#D25F5E5E" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/check"
+        android:layout_width="277dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#E8332828"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="checkValidity"
+        android:text="checkCOVID-19" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+
+    <TextView
+        android:id="@+id/symtomsInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:text=" I think might have Coronavirus symtoms"
+        android:textColor="#E8332828"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/yesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes"
+            android:textColor="#E8332828"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No"
+            android:textColor="#E8332828"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="find hospitals in Champaign-Urbana"
+        tools:visibility="invisible"/>
+
+
+</LinearLayout>
